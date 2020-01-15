@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestrutura", "Infraestrutura", "{0202BD21-A72F-4D74-B4D7-C0F530121C61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domínio", "Domínio", "{E2787DC3-1877-49B0-9301-4DA28F2F4EAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aplicação", "Aplicação", "{036687CA-5A7A-4B30-8CEE-EC71C49D3EBB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoFinal.Infraestrutura", "ProjetoFinal.Infraestrutura\ProjetoFinal.Infraestrutura.csproj", "{F55817A4-C140-47F4-9320-D1905C55FB65}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoFinal.Dominio", "ProjetoFinal.Dominio\ProjetoFinal.Dominio.csproj", "{30E55629-3A4E-4B39-BDB9-C14B196EA27F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F55817A4-C140-47F4-9320-D1905C55FB65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F55817A4-C140-47F4-9320-D1905C55FB65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F55817A4-C140-47F4-9320-D1905C55FB65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F55817A4-C140-47F4-9320-D1905C55FB65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30E55629-3A4E-4B39-BDB9-C14B196EA27F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30E55629-3A4E-4B39-BDB9-C14B196EA27F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30E55629-3A4E-4B39-BDB9-C14B196EA27F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30E55629-3A4E-4B39-BDB9-C14B196EA27F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F55817A4-C140-47F4-9320-D1905C55FB65} = {0202BD21-A72F-4D74-B4D7-C0F530121C61}
+		{30E55629-3A4E-4B39-BDB9-C14B196EA27F} = {E2787DC3-1877-49B0-9301-4DA28F2F4EAC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7013F39B-C76D-4648-A85F-59AA588525F0}
+	EndGlobalSection
+EndGlobal
